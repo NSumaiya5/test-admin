@@ -1,12 +1,17 @@
 
 body{
 
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-color:#4984f8;
   width: 100%;
   min-height: 100vh;
  }
  
 
+ div.css-c1bgk0-RaLogin-root {
+   background-image:none;
+   background-color:#4984f8;
+
+ }
 div.RaSidebar-fixed {
   background-color:#4984f8;
 }
@@ -92,4 +97,20 @@ th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-alignCenter.MuiTableCell-siz
     color:white !important;
     border-radius: 20px;
     font-family: 'Courier New', Courier, monospace;
+  }
+
+  div.MuiAvatar-root.MuiAvatar-circular.MuiAvatar-colorDefault.RaLogin-icon.css-1sz2sdz-MuiAvatar-root {
+    display: none;
+  }
+
+  .leadWidth{
+    height: 40px;
+  }
+
+  .box{
+    width: 90%;
+    height: 40px;
+    border-radius: 15px;
+    border: 1px solid rgb(206, 205, 204);
+
   }

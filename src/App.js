@@ -18,13 +18,20 @@ import './Css/Login/LoginFrom.css'
 import ReactDOM from 'react-dom';
 import Button from '@mui/material/Button';
 
-
+import {
+    BrowserRouter,
+    Routes,
+    Route,
+  } from "react-router-dom";
+  
 
 
 
 const dataProvider = jsonServerProvider('https://jsonplaceholder.typicode.com');
 
 const App = () => (
+
+    <BrowserRouter>
 
     <Admin dashboard={Dashboard} authProvider={authProvider} dataProvider={dataProvider}>
         
@@ -38,6 +45,12 @@ const App = () => (
 
 
     </Admin>
+
+    <Routes>
+        {/* <Route path="/Lead/lead" element={<Lead></Lead>}/> */}
+    </Routes>
+
+    </BrowserRouter>
 
 );
 

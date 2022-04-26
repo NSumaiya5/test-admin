@@ -94,7 +94,7 @@ const Lead = () => {
 
     return (
 
-        <TableContainer component={Paper} className="mt-5">
+        <TableContainer component={Paper} className="mt-4">
         <Table sx={{ minWidth: 700 }} aria-label="customized table">
           <TableHead>
             <TableRow>
